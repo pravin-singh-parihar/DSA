@@ -1,6 +1,3 @@
-# Data Structures and Algorithms
-Welcome to My DSA Repository!
-<!-- README.md -->
 
 # Welcome to My DSA Repository!
 
@@ -36,61 +33,5 @@ Data Structures and Algorithms (DSA) form the backbone of computer science and p
 9. **Searching Algorithms**: Techniques to retrieve data from a collection (e.g., binary search, depth-first search).
 </p>
 
-## Repository Structure
-<p style="font-family: 'Arial', sans-serif; font-size: 16px;">
-Here's how the repository is organized:
-</p>
 
-<pre>
-<code>
-├── Arrays
-│   ├── problem1.java
-│   ├── problem2.java
-│   └── ...
-├── LinkedLists
-│   ├── problem1.java
-│   ├── problem2.java
-│   └── ...
-├── Stacks
-│   ├── problem1.java
-│   ├── problem2.java
-│   └── ...
-├── Queues
-│   ├── problem1.java
-│   ├── problem2.java
-│   └── ...
-├── Trees
-│   ├── problem1.java
-│   ├── problem2.java
-│   └── ...
-├── Graphs
-│   ├── problem1.java
-│   ├── problem2.java
-│   └── ...
-└── SortingSearching
-    ├── problem1.java
-    ├── problem2.java
-    └── ...
-</code>
-</pre>
-
-## How to Contribute
-<p style="font-family: 'Arial', sans-serif; font-size: 16px;">
-1. **Fork the repository**: Click the fork button at the top right corner.<br>
-2. **Clone your forked repository**: `git clone https://github.com/your-username/DSA-Repository.git`<br>
-3. **Create a new branch**: `git checkout -b new-feature`<br>
-4. **Make your changes**: Add your code or improve existing ones.<br>
-5. **Commit your changes**: `git commit -m "Add new feature"`<br>
-6. **Push to the branch**: `git push origin new-feature`<br>
-7. **Create a pull request**: Go to your repository on GitHub and click the “New pull request” button.
-</p>
-
-## Acknowledgements
-<p style="font-family: 'Arial', sans-serif; font-size: 16px;">
-I would like to thank all the resources and mentors who have helped me in my journey of learning DSA. Your guidance and support have been invaluable.
-</p>
-
-## Contact
-<p style="font-family: 'Arial', sans-serif; font-size: 16px;">
-Feel
 
