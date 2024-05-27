@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class ContainsSubArray {
     public static void main(String[] args) {
-        int[] arr={23,2,4,6,7};
+        int[] arr={21,2,1,1,7};
         int k=6;
         System.out.print(sumArray(arr,k));
 
