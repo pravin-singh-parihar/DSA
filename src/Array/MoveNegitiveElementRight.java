@@ -5,29 +5,31 @@ import java.util.Arrays;
 public class MoveNegitiveElementRight {
     public static void main(String[] args) {
         int[] arr = {1, -1, 3, 2, -7, -5, 11, 6};
-        MoveNegitiveElementRight.moveNegative(arr);
+        int n=arr.length;
+        MoveNegitiveElementRight.moveNegative(arr,n);
     }
 
-    public static void moveNegative(int[] arr) {
-        int i = 0; // pointer to the next position for a positive number
-        int j = 1; // pointer to iterate through the array
+    public static void moveNegative(int[] arr,int n) {
+        int[] n1 = new int[n];
+        int index=0;
+        for (int i = 0; i < n; i++) {
+            if (arr[i]>=0){
+                n1[index++]=arr[i];
+            }
 
-        while (j < arr.length) {
-            if (arr[i] >= 0 ) { // if the current number is non-negative
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-                i++;
-                ;// move the pointer to the next position for a positive number
-            }
-            else if (arr[j] >= 0) {
-                j++; // always move the iterator pointer
-            }else {
-                i++;
-                j++;
-            }
         }
+        for (int i = 0; i <n ; i++) {
+            if (arr[i]<0){
+                n1[index++]=arr[i];
+            }
 
+        }
+        for (int i = 0; i < n; i++) {
+            arr[i]=n1[i];
+
+        }
         System.out.println(Arrays.toString(arr));
     }
 }
+
+
