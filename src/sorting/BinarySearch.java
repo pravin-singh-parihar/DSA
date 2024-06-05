@@ -1,3 +1,5 @@
+package sorting;
+
 import static java.util.Arrays.binarySearch;
 
 public class BinarySearch {
