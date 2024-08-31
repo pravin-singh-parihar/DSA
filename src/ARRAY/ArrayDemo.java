@@ -26,8 +26,8 @@ public class ArrayDemo {
         }
         System.out.println("________________________-");
 // Feating element from the array using loop
-        for (int i = 0; i <arr.length ; i++) {
-            System.out.println(arr[i]);
+        for (int i:arr){
+            System.out.println(i);
 
         }
 

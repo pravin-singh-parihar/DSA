@@ -1,3 +1,4 @@
+package BASIC;
 import java.util.Scanner;
 
 public class PrimeNum {
