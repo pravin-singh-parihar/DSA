@@ -1,4 +1,4 @@
-package Collection.ARRAY_LIST;
+package COLLECTION.ARRAY_LIST;
 
 import java.util.ArrayList;
 
@@ -9,7 +9,7 @@ public class ArrayListDomo {
         * We can remove the value form arraylist */
         // CREATING ARRAYLIST
         ArrayList<Integer>al=new ArrayList<>();
-        //ADDING ELEMENT IN ARRAYLIST
+        //addING ELEMENT IN ARRAYLIST
         al.add(10);
         al.add(20);
         al.add(30);
